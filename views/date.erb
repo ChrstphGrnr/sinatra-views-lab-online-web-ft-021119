@@ -10,6 +10,6 @@
     <% date_year = DateTime.now.strftime('%Y') %>
     <% date_month = DateTime.now.strftime('%B') %>
     <% date_day = DateTime.now.strftime('%-d') %>
-    <p>The date is <%=week_day %> </p>
+    <p>The date is <%=week_day %>, <%=date_month%> <%=date_day%>, <%date_year%> </p>
   </body>
 </html>
